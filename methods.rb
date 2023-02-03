@@ -29,6 +29,8 @@ This is an alternative implementation although the Checker rejects it.
 
  def halve(param)
   return param/2 unless param.nil?
-  puts halve 60 =end
+  puts halve 60
+  
+ end
 
-end
+=end
