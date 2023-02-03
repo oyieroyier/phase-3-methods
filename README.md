@@ -393,9 +393,7 @@ a function early if a certain condition isn't met:
 
 ```rb
 def reverse_name(name)
-  if name.class != String
-    return nil
-  end
+  return nil if name.class != String
 
   name.reverse
 end
