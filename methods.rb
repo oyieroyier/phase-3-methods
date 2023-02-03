@@ -15,17 +15,20 @@ def add(a,b)
 	return a + b
 end
 
-=begin 
-
-def halve(param)
-	return param/2
-end
-
-=end
-
 def halve(param)
 	if param == Integer
 		return param/2
 	else
 		return nil
+end
+
+
+=begin 
+ 
+This is an alternative implementation although the Checker rejects it.
+
+ def halve(param)
+  return param/2 unless param.nil?
+  puts halve 60 =end
+
 end
